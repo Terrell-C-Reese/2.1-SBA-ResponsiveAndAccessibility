@@ -311,3 +311,114 @@ a:hover {
     margin-bottom: 16px;
     text-align: center;
 }
+.contact {
+    background-color: #f4f1f8;
+    color: #24202b;
+}
+
+.contact .section__title {
+    color: #24202b;
+}
+
+.contact__intro,
+.contact__note {
+    max-width: 640px;
+    margin: 0 auto 16px;
+    text-align: center;
+}
+
+.contact__form {
+    width: 100%;
+    max-width: 640px;
+    margin: 24px auto 0;
+}
+
+.contact__field {
+    margin-bottom: 20px;
+}
+
+.contact__field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.contact__field input,
+.contact__field textarea {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px;
+    border: 2px solid #62566f;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #24202b;
+    font: inherit;
+}
+
+.contact__field textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact__field input:focus-visible,
+.contact__field textarea:focus-visible,
+.contact__submit:focus-visible {
+    outline: 3px solid #176b55;
+    outline-offset: 3px;
+}
+
+.contact__submit {
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 850px) {
+    .highlight {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav__container {
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .nav__links {
+        justify-content: center;
+    }
+
+    .nav__link {
+        font-size: 16px;
+        padding: 8px 6px;
+    }
+
+    .header__container {
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .header__copy {
+        font-size: 18px;
+    }
+
+    .about-section__copy {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 40px 16px;
+    }
+
+    .highlight {
+        max-width: 100%;
+    }
+}
